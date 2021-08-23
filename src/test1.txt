@@ -1,0 +1,23 @@
+%start
+
+%token <production> G
+%token <iValue> id
+%token <production> E
+%token <production> T
+%token <production> F
+
+%grammar
+
+%aug  : E
+		;
+E   : E '+' T
+		| T
+		;
+T   : T '*' F
+		| F
+		;
+F   : '(' E ')'
+		| id
+		;
+
+%end
