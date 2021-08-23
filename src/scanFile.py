@@ -337,10 +337,10 @@ def readFrom(filename):
 
 
 def scanFrom():
-    readFrom("test1.txt")
+    readFrom("grammar.txt")
     scannedProductions = scan()
     return scannedProductions
 
 if __name__ == "__main__":
-    readFrom("test1.txt")
+    readFrom("grammar.txt")
     scannedProductions = scan()
