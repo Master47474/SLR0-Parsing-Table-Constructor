@@ -1,4 +1,4 @@
-# YaccOff
+# SLR0 Parsing Table Constructor
 
 ## A offbrand Yacc or somthn idk yet
 
